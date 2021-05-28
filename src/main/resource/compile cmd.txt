@@ -1,0 +1,2 @@
+javac -cp D:\apache-tomcat-10.0.5\lib\servlet-api.jar .\src\main\java\*.java .\src\main\java\pojo\*.java -d .\src\main\webapp\WEB-INF\classes\
+javac -cp D:\apache-tomcat-10.0.5\lib\servlet-api.jar .\src\main\java\*.java .\src\main\java\pojo\*.java .\src\main\java\data\*.java -d .\src\main\webapp\WEB-INF\classes\

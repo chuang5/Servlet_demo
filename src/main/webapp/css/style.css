@@ -1,0 +1,61 @@
+.topnav{
+  overflow: hidden;
+  background-color: #5dbab7;
+}
+
+.topnav form{
+  float: right;
+  display: inline;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.container{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.employee_form, .department_form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.employee_form label,
+.employee_form input,
+.employee_form select {
+  /* In order to define widths */
+  display: inline-block;
+}
+
+.employee_form label {
+  width: 30%;
+  /* Positions the label text beside the input */
+  text-align: left;
+}
+
+.employee_form label + input + select {
+  width: 30%;
+  /* Large margin-right to force the next element to the new-line
+           and margin-left to create a gutter between the label and input */
+  margin: 0 30% 0 4%;
+}
